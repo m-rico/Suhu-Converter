@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.celciusController">
+    <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background%20JavaFX%20fixxx%20d28-01.jpg" />
+         </image>
+      </ImageView>
+        <Pane prefHeight="400.0" prefWidth="300.0">
+            <children>
+                <TextField fx:id="dariCelcius" layoutX="30.0" layoutY="68.0" prefHeight="53.0" prefWidth="220.0" promptText="Masukan suhu">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+                <TextField fx:id="hasilUbah" editable="false" layoutX="30.0" layoutY="287.0" prefHeight="53.0" prefWidth="220.0">
+               <font>
+                  <Font size="24.0" />
+               </font></TextField>
+                <Label layoutX="30.0" layoutY="21.0" prefHeight="46.0" prefWidth="149.0" text="CELCIUS" textFill="WHITE">
+                    <font>
+                        <Font size="32.0" />
+                    </font>
+                </Label>
+            <Label layoutX="30.0" layoutY="240.0" prefHeight="46.0" prefWidth="149.0" text="HASIL" textFill="WHITE">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="153.0" prefHeight="46.0" prefWidth="149.0" text="MENJADI" textFill="WHITE">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+                <Button layoutX="211.0" layoutY="366.0" mnemonicParsing="false" onAction="#addScene" stylesheets="@MycssBlue.css" text="Home" />
+            <RadioButton fx:id="keReamur" layoutX="30.0" layoutY="205.0" mnemonicParsing="false" text="R" />
+            <RadioButton fx:id="keFahrenheit" layoutX="78.0" layoutY="205.0" mnemonicParsing="false" text="F" />
+            <RadioButton fx:id="keKelvin" layoutX="126.0" layoutY="205.0" mnemonicParsing="false" text="K" />
+            <Button layoutX="179.0" layoutY="201.0" mnemonicParsing="false" onAction="#radioUbahOnAction" stylesheets="@MycssBlue.css" text="Ubah" />
+            <Label layoutX="30.0" layoutY="128.0" text="*Harap Masukkan Data Angka">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="377.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@celciusw.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="282.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Celcius Converter">
+         <font>
+            <Font name="Century Gothic Bold" size="23.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

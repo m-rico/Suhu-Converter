@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.reamurController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@background%20JavaFX%20fixxx%20d28-01.jpg" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="400.0" prefWidth="300.0">
+         <children>
+            <TextField fx:id="dariReamur" layoutX="30.0" layoutY="68.0" prefHeight="53.0" prefWidth="220.0" promptText="Masukan suhu">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+            <TextField fx:id="hasilUbah" editable="false" layoutX="30.0" layoutY="287.0" prefHeight="53.0" prefWidth="220.0">
+               <font>
+                  <Font size="24.0" />
+               </font></TextField>
+            <Label layoutX="30.0" layoutY="21.0" prefHeight="46.0" prefWidth="149.0" text="REAMUR" textFill="WHITE">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="240.0" prefHeight="46.0" prefWidth="149.0" text="HASIL" textFill="WHITE">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="153.0" prefHeight="46.0" prefWidth="149.0" text="MENJADI" textFill="WHITE">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Button layoutX="211.0" layoutY="366.0" mnemonicParsing="false" onAction="#addScene" stylesheets="@MycssBlue.css" text="Home" />
+            <RadioButton fx:id="keCelcius" layoutX="30.0" layoutY="205.0" mnemonicParsing="false" text="C" />
+            <RadioButton fx:id="keFahrenheit" layoutX="78.0" layoutY="205.0" mnemonicParsing="false" text="F" />
+            <RadioButton fx:id="keKelvin" layoutX="126.0" layoutY="205.0" mnemonicParsing="false" text="K" />
+            <Button layoutX="179.0" layoutY="201.0" mnemonicParsing="false" onAction="#radioUbahOnAction" stylesheets="@MycssBlue.css" text="Ubah" />
+            <Label layoutX="30.0" layoutY="127.0" text="*Harap Masukkan Data Angka">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="377.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ReamurD.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="282.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reamur Converter">
+         <font>
+            <Font name="Century Gothic Bold" size="23.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
