@@ -1,6 +1,6 @@
 package sample;
 
-public class Reamur {
+public class Reamur extends Temp{
     private double nilai;
 
     Reamur(double nilai)
