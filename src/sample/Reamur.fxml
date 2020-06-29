@@ -64,5 +64,40 @@
             <Font name="Century Gothic Bold" size="23.0" />
          </font>
       </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Skala Réaumur adalah skala temperatur yang dinamai">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R -&gt; F = (9/4) R + 32">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="menurut René Antoine Ferchault de Réaumur, yang pertama">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="mengusulkannya pada 1731. Titik beku air adalah 0 derajat">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R -&gt; C = (5/4) R">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R -&gt; K = (5/4) R + 273">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Réaumur, titik didih air 80 derajat.">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

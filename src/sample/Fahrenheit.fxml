@@ -67,5 +67,35 @@
             <Font name="Century Gothic Bold" size="23.0" />
          </font>
       </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fahrenheit adalah skala suhu termodinamika, ">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="F -&gt; C = (°F − 32) × 5/9">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" dimana titik beku air adalah 32 derajat Fahrenheit (°F) dan">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="titik didih nya 212 °F (pada tekanan standar atmosfer).">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="F -&gt; R = 4/9 (F-32)">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="F -&gt; K = (°F − 32) × 5/9 + 273">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

@@ -67,5 +67,40 @@
             <Font name="Century Gothic Bold" size="23.0" />
          </font>
       </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Satuan kelvin didefinisikan oleh dua fakta: nol kelvin adalah">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K -&gt; F = 9/5 (K-273) + 32">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nol absolut (ketika gerakan molekuler berhenti, dalam ">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="282.0" strokeType="OUTSIDE" strokeWidth="0.0" text="termodinamika), dan satu kelvin adalah pecahan 1/273,16">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K -&gt; R = 4/5 (K-273)">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="K -&gt; C = K – 273">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="282.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="dari suhu termodinamika triple point air (0,01°C).">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
